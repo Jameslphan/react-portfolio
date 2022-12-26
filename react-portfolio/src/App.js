@@ -1,18 +1,15 @@
 import './App.scss';
 import About from './components/About/index';
-import Nav from './components/Nav/index';
+import Sidebar from './components/Sidebar/index';
 import Footer from './components/Footer/index';
-import Portfolio from './components/Portfolio/index';
+//import Portfolio from './components/Portfolio/index';
 import { Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Routes>
-        <Route path='/' element={<About />} />
-      </Routes>
+      <Sidebar />
       <Footer />
     </div>
   );
