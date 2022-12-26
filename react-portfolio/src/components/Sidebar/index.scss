@@ -42,7 +42,7 @@
             }
 
             &:hover {
-                color: rgb(1, 255, 52);
+                color: rgb(0, 98, 255);
 
                 svg {
                     opacity: 0;
@@ -55,7 +55,8 @@
             
             &:after {
                 content: '';
-                font-size: 9px;
+                font-weight:bolder;
+                font-size: 12px;
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -64,6 +65,7 @@
                 text-align: center;
                 opacity: 0;
                 transition: all 0.3s ease-out;
+                
             }
 
             &:first-child {
@@ -87,7 +89,7 @@
 
         a.active {
             svg {
-                color: rgb(1, 255, 52);
+                color: rgb(38, 57, 226);
             }
         }
     }
@@ -110,7 +112,7 @@
                 line-height: 16px;
 
                 &:hover svg {
-                    color: rgb(1, 255, 52);
+                    color: yellow;
                 }
             }
         }
