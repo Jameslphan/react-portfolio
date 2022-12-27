@@ -14,15 +14,7 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-
-        &::before {
-            opacity: 0.6;
-        }
-
-        &::after {
-            animation: fadeIn 1s 1.7s backwards;
-            opacity: 0.6;
-        }
+        z-index: 3;
 
         .textRed {
             color: rgb(242, 45, 45);
@@ -45,6 +37,7 @@
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.9s backwards;
+        z-index: 3;
     }
 
     .flat-button {
@@ -67,13 +60,13 @@
         }
     }
     .img-container {
-    z-index: 0;
+    z-index: 1;
     width: 400px;
     height: 609px;
     position: absolute;
     top: 0;
-    right: 30%;
-    bottom: 15%;
+    right: 20%;
+    bottom: 0;
     left: auto;
     margin: auto;
 
@@ -81,7 +74,7 @@
         border: 3px solid rgb(41, 134, 70);
         border-radius: 50%;
         position: absolute;
-        max-width: 200%;
+        max-width: 150%;
         margin: auto;
         z-index: 1;
     }

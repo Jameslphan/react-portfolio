@@ -14,7 +14,7 @@
         img {
             display: block;
             margin: 8px auto;
-            width: 24px;
+            width: 60px;
             height: auto; 
         }
     }
@@ -42,7 +42,7 @@
             }
 
             &:hover {
-                color: rgb(0, 98, 255);
+                color: rgb(242, 45, 45);
 
                 svg {
                     opacity: 0;
@@ -78,6 +78,12 @@
         a.about-link {
             &:after {
                 content: 'ABOUT';
+            }
+        }
+
+        a.portfolio-link {
+            &:after {
+                content: 'Portfolio';
             }
         }
 
