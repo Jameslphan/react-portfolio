@@ -66,4 +66,26 @@
             color: #333;
         }
     }
+    .img-container {
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    top: 0;
+    right: 30%;
+    bottom: 15%;
+    left: auto;
+    margin: auto;
+
+   img {
+        border: 3px solid rgb(41, 134, 70);
+        border-radius: 50%;
+        position: absolute;
+        max-width: 200%;
+        margin: auto;
+        z-index: 1;
+    }
+
 }
+}
+
