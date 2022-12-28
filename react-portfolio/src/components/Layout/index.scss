@@ -5,7 +5,7 @@
   }
   
   .top-tags {
-    bottom: auto;
+    bottom: 0;
     top: 35px;
   }
   
@@ -14,7 +14,7 @@
     opacity: 0.6;
     position: absolute;
     bottom: 0;
-    left: 120px;
+    left: 100px;
     font-size: 18px;
     font-family: 'La Belle Aurore', cursive;
   }
@@ -34,7 +34,8 @@
     animation-delay: 1s;
   }
 
-  .about-page {
+  .about-page,
+  .contact-page {
 
     .text-zone {
       position: absolute;
