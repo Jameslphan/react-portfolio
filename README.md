@@ -14,7 +14,7 @@ This is a portfolio to showcase my work built using the React framework.
 ## Usage
 For demonstration purpose only. <br />
 Screenshot: <br />
-![alt text](/react-portfolio/public/portfolio/ReactPortfolio/ReactPortfolio.png)
+![alt text](/portfolio/ReactPortfolio/ReactPortfolio.png)
 
 ## Features
 - Can navigate the sidebar to see the:
